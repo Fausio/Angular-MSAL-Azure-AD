@@ -7,3 +7,14 @@
     </mat-card-content>
   </mat-card>
 </div>
+
+
+<div *ngIf="!isUserLoggedIn">
+    <mat-card class="title-card">
+      <mat-card-content>
+        <div class="center">
+          <h1 class="center" style="color: red">Please login into azure Ad</h1>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>

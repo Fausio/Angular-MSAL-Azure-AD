@@ -1,7 +1,7 @@
 <mat-toolbar class="mat-elevation-z4" color="primary">
-  <a href="/" class="title"> Azuretech tutorial</a>
+  <a href="/" class="title"> Angular azure AD</a>
 
-  <div class="tool-space"></div>
+  <div class="toolbar-space"></div>
   <a mat-button [routerLink]="['profile']">profile</a>
   <button mat-raised-button *ngIf="!isUserLoggedIn" (click)="login()">Login</button> 
   <button mat-raised-button *ngIf="isUserLoggedIn" (click)="logout()">Logout</button>
